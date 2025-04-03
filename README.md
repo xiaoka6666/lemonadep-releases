@@ -22,7 +22,7 @@ Copyright (C) 2025
 `git clone https://github.com/xiaoka6666/android_hardware_oplus -b lineage-22.2 --single-branch --depth=1 hardware/oplus`
 
 2.提取专有 blob
-`cd [YOUR ROM SOURCE]`  
+`bash device/oneplus/lemonadep/extract-files.py`  
 
 3. 初始化环境 
 `source build/envsetup.sh`  
