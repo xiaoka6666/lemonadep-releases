@@ -14,7 +14,7 @@ Copyright (C) 2025
 mkdir ~/android/yaap && cd ~/android/yaap
 ```
 ```
-repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs --depth=1
+repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs --depth=1
 ```
 ```
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
