@@ -9,9 +9,13 @@ Copyright (C) 2025
 
 ## 如何编译
 1. 拉源码/Pull source code
-- ROM:  
-`mkdir [YOUR ROM SOURCE] && cd [YOUR ROM SOURCE]`  
-`repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs --depth=1`  
+- ROM:
+```
+mkdir ~/android/yaap && cd ~/android/yaap
+```
+```
+repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs --depth=1
+```
 `repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags`  
 - Device:  
 `git clone https://github.com/xiaoka6666/android_device_oneplus_lemonadep -b lineage-22.2 --single-branch --depth=1 device/oneplus/lemonadep`
