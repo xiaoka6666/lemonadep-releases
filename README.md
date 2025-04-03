@@ -11,7 +11,8 @@ Copyright (C) 2025
 1. 拉源码/Pull source code
 - ROM:
 ```
-mkdir -p ~/android/crDroid && cd -p ~/android/crDroid
+mkdir -p ~/android/crDroid
+cd -p ~/android/crDroid
 ```
 ```
 repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs --depth=1
