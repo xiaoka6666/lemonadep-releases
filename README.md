@@ -23,7 +23,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 git clone https://github.com/xiaoka6666/android_device_oneplus_lemonadep -b lineage-22.2 --single-branch --depth=1 device/oneplus/lemonadep
 git clone https://github.com/xiaoka6666/android_device_oneplus_sm8350-common -b lineage-22.2 --single-branch --depth=1 device/oneplus/sm8350-common
-git clone https://github.com/xiaoka6666/android_device_oneplus_lemonadep -b lineage-22.2 --single-branch --depth=1 device/oneplus/lemonadep 
+git clone https://github.com/xiaoka6666/android_kernel_oneplus_sm8350 -b lineage-22.2 --single-branch --depth=1 kernel/oneplus/sm8350
 git clone https://github.com/xiaoka6666/android_hardware_oplus -b lineage-22.2 --single-branch --depth=1 hardware/oplus
 ```
 2.提取专有 blob
