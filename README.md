@@ -16,22 +16,29 @@ mkdir ~/android/yaap && cd ~/android/yaap
 ```
 repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs --depth=1
 ```
-`repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags`  
-- Device:  
-`git clone https://github.com/xiaoka6666/android_device_oneplus_lemonadep -b lineage-22.2 --single-branch --depth=1 device/oneplus/lemonadep`
-`git clone https://github.com/xiaoka6666/android_device_oneplus_sm8350-common -b lineage-22.2 --single-branch --depth=1 device/oneplus/sm8350-common`
-- Kernel:  
-`git clone https://github.com/xiaoka6666/android_device_oneplus_lemonadep -b lineage-22.2 --single-branch --depth=1 device/oneplus/lemonadep`
-- Hardware:  
-`git clone https://github.com/xiaoka6666/android_hardware_oplus -b lineage-22.2 --single-branch --depth=1 hardware/oplus`
-
+```
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+- lemonadep:  
+```
+git clone https://github.com/xiaoka6666/android_device_oneplus_lemonadep -b lineage-22.2 --single-branch --depth=1 device/oneplus/lemonadep
+git clone https://github.com/xiaoka6666/android_device_oneplus_sm8350-common -b lineage-22.2 --single-branch --depth=1 device/oneplus/sm8350-common
+git clone https://github.com/xiaoka6666/android_device_oneplus_lemonadep -b lineage-22.2 --single-branch --depth=1 device/oneplus/lemonadep 
+git clone https://github.com/xiaoka6666/android_hardware_oplus -b lineage-22.2 --single-branch --depth=1 hardware/oplus
+```
 2.提取专有 blob
-`bash device/oneplus/lemonadep/extract-files.py`  
+```
+bash device/oneplus/lemonadep/extract-files.py
+```
 
-3. 初始化环境 
-`source build/envsetup.sh`  
-
-4. 开始编译  
-`breakfast lemonadep`
-`croot`
-`brunch lemonadep`
+3. 初始化环境和开始编译
+```
+source build/envsetup.sh
+```
+```
+breakfast lemonadep
+```
+```
+croot
+brunch lemonadep
+```
