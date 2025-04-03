@@ -12,7 +12,7 @@ Copyright (C) 2025
 - ROM:
 ```
 mkdir -p ~/android/crDroid
-cd -p ~/android/crDroid
+cd ~/android/crDroid
 ```
 ```
 repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs --depth=1
