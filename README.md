@@ -28,7 +28,7 @@ git clone https://github.com/xiaoka6666/android_hardware_oplus -b lineage-22.2 -
 ```
 2.提取专有 blob
 ```
-bash device/oneplus/lemonadep/extract-files.py
+./extract-files.py
 ```
 
 3. 初始化环境和开始编译
