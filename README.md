@@ -1,5 +1,4 @@
-Copyright (C) 2023 [AngelaCooljx](https://github.com/AngelaCooljx)
-
+Copyright (C) 2025
 # 如何为 OnePlus 9 Pro 编译 Android 15 ROM (以 
 Yet another AOSP project 为例)
 
