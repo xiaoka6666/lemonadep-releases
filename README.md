@@ -1,6 +1,5 @@
 Copyright (C) 2025
-# 如何为 OnePlus 9 Pro 编译 Android 15 ROM (以 
-Yet another AOSP project 为例)
+# 如何为 OnePlus 9 Pro 编译 Android 15 ROM (以 Yet another AOSP project 为例)
 
 ## 准备环境
 - 最低配置 16G 物理内存 + 设置至少 32G SWAP ，至少 350G 空闲 SSD 容量，CPU 无要求
