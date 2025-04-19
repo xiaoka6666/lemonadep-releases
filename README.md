@@ -15,7 +15,7 @@ mkdir -p ~/android/crDroid
 cd ~/android/crDroid
 ```
 ```
-repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs --depth=1
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs --depth=1
 ```
 ```
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
